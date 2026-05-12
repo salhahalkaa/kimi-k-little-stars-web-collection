@@ -1,0 +1,18 @@
+{
+  "name": "kimi-k-little-stars-collection",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Collection of web projects for Little Stars Nursery and Goals Split",
+  "workspaces": [
+    "Kimi_Agent_星光背景特效/app",
+    "Goals_Split"
+  ],
+  "scripts": {
+    "build:nursery": "npm run build --workspace=Kimi_Agent_星光背景特效/app",
+    "build:goals": "npm run build --workspace=Goals_Split",
+    "install:all": "npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
